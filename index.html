@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japan Tourism - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <h2>Explore Japan</h2>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#culture">Culture</a></li> <!-- Added Culture link -->
+                <li><a href="cuisine.html">Cuisine</a></li>
+                <li><a href="destinations.html">Popular Destinations</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="text-overlay">
+            <h1>Welcome to Japan</h1>
+            <p>Discover the beauty of Japan, the Land of the Rising Sun</p>
+        </div>
+    </section>
+
+    <!-- Media Section -->
+    <div class="media-container">
+        <div class="video">
+            <h2>Watch Our Introduction</h2>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/NQ6_Sqt_w3Y?autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="description">
+            <h2>About Japan</h2>
+            <p>Japan, an island nation in East Asia, is known for its rich culture, 
+                stunning landscapes, and advanced technology. It is a blend of tradition and modernity, where ancient temples coexist with futuristic skyscrapers.</p>
+            <p>The country is famous for its beautiful cherry blossoms, vibrant festivals, and delicious cuisine. 
+                From the bustling streets of Tokyo to the serene temples of Kyoto, 
+                Japan offers a diverse experience for every traveler.</p>
+            <p>Explore its historical sites, enjoy the unique arts, and 
+                indulge in the warm hospitality of the Japanese people.</p>
+        </div>
+    </div>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Please fill out the form below and we'll get in touch as soon as possible.</p>
+        
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
